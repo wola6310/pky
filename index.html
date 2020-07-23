@@ -1,0 +1,13 @@
+---
+layout: default
+author: Reno
+date: 2020-07-21 08:54
+title: "Palangka Identitasku"
+description: "Segalanya tentang Palangka Raya. Festival, acara akbar, kabar terkini, lowongan kerja, jual-beli, forum."
+---
+<h1>{{ page.title }}</h1>
+<ul>
+{% for post in site.posts %}
+<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
