@@ -1,0 +1,6 @@
+name: pky.my.id
+permalink: /:year/:month/:day/:title
+markdown: kramdown
+timezone: Asia/Jakarta
+limit_posts: 50
+baseurl: https://pky.my.id/
